@@ -6,6 +6,8 @@
 </head>
 <body>
 <form action=""method="POST">
+    {% csrf_token %}
+
     <input type="text"name="amount" placeholder="Enter Amount"> <br> <br>
     <input type="text"name="phone" placeholder="Enter Phone"><br><br>
 
